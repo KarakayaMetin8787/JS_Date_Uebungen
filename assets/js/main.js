@@ -26,6 +26,7 @@ setNewDate3.setMonth(2);
 const setNewDate4 = new Date(setNewDate2);
 setNewDate4.setDate(3);
 const setNewDate5 = new Date(2019, 10, 22, 13, 25, 11);
+setNewDate5.setDate(setNewDate5.getDate() + 30);
 
 document.body.querySelector("header").innerHTML += `<br>${setNewDate1}<br>`;
 document.body.querySelector("header").innerHTML += `${setNewDate2}<br>`;
